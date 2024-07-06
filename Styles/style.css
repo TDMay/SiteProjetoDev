@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    height: 5%;
+}
+.navegacao{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+}
+
+.navegacao__aba, .navegacao__aba2{
+    display: flex;
+    gap: 30px;
+}
+
+.navegacao__link{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+
+main{
+    background-color: gray;
+    height: 95%;
+}
+
+footer{
+    height: 10%;
+    background-color: blue;
+}
+.creditos{
+    gap: 2px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.creditos__card{
+    display: flex;
+    gap: 30px;
+}
