@@ -44,20 +44,26 @@ nav{
     border: 2px solid white;
     text-align: start;
     padding: 0 30px;
+    font-size: 20px;
 }
 
 .barraDePesquisa button{
     height: 110%;
-    width: 40px;
+    width: 60px;
+    color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: aliceblue;
     border-radius: 0 10px 10px 0;
     border-color: aliceblue ;
     border: 2px solid white ;
+    transition: 0.5s;
 }
 
 .barraDePesquisa button:hover{
-    transition: 0.5s;
-    background-color: aquamarine;
+    color: white;
+    background-color: cadetblue;
 }
 
 .userInfo{
@@ -69,6 +75,7 @@ nav{
 .userInfo a{
     text-decoration: none;
     color: white;
+    font-size: 20px;
 }
 
 .userInfo a:hover{
@@ -83,7 +90,8 @@ main{
 
 footer{
     height: 10%;
-    background-color: blue;
+    width: 100%;
+    background-color: cadetblue;
     display: flex;
     align-items: center;
     justify-content: center;
