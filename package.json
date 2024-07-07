@@ -1,0 +1,17 @@
+{
+  "name": "siteprojetodev",
+  "version": "1.0.0",
+  "description": "Um site criado usando as habilidades de Celso, Maykon e Erick Cabral com intenção de melhorar suas habilidades",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/server/server.js"
+  },
+  "keywords": [],
+  "author": "Erick Cabral, Celso Ricardo, Maykon Bogéa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
