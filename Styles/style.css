@@ -8,30 +8,76 @@ body{
 }
 
 header{
-    height: 5%;
+    height: 10%;
 }
-.navegacao{
-    height: 100%;
+
+nav{
     display: flex;
+    background-color: cadetblue;
+    height: 100%;
     justify-content: space-around;
     align-items: center;
-    background-color: red;
+    padding: 0 60px;
 }
 
-.navegacao__aba, .navegacao__aba2{
+.logoMercado{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoMercado img{
+    height: 60px;
+}
+
+.barraDePesquisa{
     display: flex;
-    gap: 30px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+}
+.barraDePesquisa input{
+    width: 600px;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+    border-color: white;
+    border: 2px solid white;
+    text-align: start;
+    padding: 0 30px;
 }
 
-.navegacao__link{
+.barraDePesquisa button{
+    height: 110%;
+    width: 40px;
+    background-color: aliceblue;
+    border-radius: 0 10px 10px 0;
+    border-color: aliceblue ;
+    border: 2px solid white ;
+}
+
+.barraDePesquisa button:hover{
+    transition: 0.5s;
+    background-color: aquamarine;
+}
+
+.userInfo{
+    display: flex;
+    gap: 10px;
     color: white;
+}
+
+.userInfo a{
     text-decoration: none;
-    font-size: 24px;
+    color: white;
+}
+
+.userInfo a:hover{
+    color: antiquewhite;
 }
 
 
 main{
-    background-color: gray;
+    background-color: white;
     height: 95%;
 }
 
