@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    height: 10%;
+}
+
+nav{
+    display: flex;
+    background-color: cadetblue;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 60px;
+}
+
+.logoMercado{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoMercado img{
+    height: 60px;
+}
+
+.barraDePesquisa{
+    display: flex;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+}
+.barraDePesquisa input{
+    width: 600px;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+    border-color: white;
+    border: 2px solid white;
+    text-align: start;
+    padding: 0 30px;
+    font-size: 20px;
+}
+
+.barraDePesquisa button{
+    height: 110%;
+    width: 60px;
+    color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 0 10px 10px 0;
+    border-color: aliceblue ;
+    border: 2px solid white ;
+    transition: 0.5s;
+}
+
+.barraDePesquisa button:hover{
+    color: white;
+    background-color: cadetblue;
+}
+
+.userInfo{
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+
+.userInfo a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.userInfo a:hover{
+    color: antiquewhite;
+}
+
+
+main{
+    background-color: white;
+    height: 95%;
+}
+
+footer{
+    height: 10%;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.creditos{
+    gap: 10px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.creditos__card{
+    display: flex;
+    gap: 30px;
+}
