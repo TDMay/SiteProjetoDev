@@ -38,9 +38,12 @@ main{
 footer{
     height: 10%;
     background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .creditos{
-    gap: 2px;
+    gap: 10px;
     display: flex;
     color: white;
     justify-content: center;
